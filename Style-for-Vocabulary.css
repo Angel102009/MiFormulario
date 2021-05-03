@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    font-size: 23px;
+    text-align: center;
+}
+
+p{
+    font-size: 16px;
+}
+
+.Box-for-header{
+    border: 4px black solid;
+    border-radius: 5px;
+    padding: 25px;
+    display: inline-block;
+    background-color: grey;
+}
