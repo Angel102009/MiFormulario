@@ -1,27 +1,48 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="">
-        <title>Form Vocabulary</title>
-    </head>
-    <body>
-        <main>
-            <div class="Box-for-information">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style-for-form-Vocabulary.css">
+    <title>Form Vocabulary</title>
+</head>
+
+<body>
+    <main>
+        <div class="Box-for-information">
             <h1>Unete a Nosotros</h1>
             <p>Si quieres una cuenta de Vocabulary</p>
             <p>Tendras que responder algunas preguntas</p>
-            </div>
+        </div>
 
-           <form> 
-            <div>
-        <p>¿Cual es tu correo?</p>
-            <input type="email" autocomplete="email" placeholder="Ejemplo1223@gmail.com">
-        <p>Y tu Contraseña</p>
-        <input type="password" autocomplete="current-password">
+        <form class="Container-for-pregunts">
+            <div class="Box-for-pregunt">
+                <p>¿Cual es tu correo?</p>
+                <input type="email" autocomplete="email" placeholder="Ejemplo1223@gmail.com">
+                <p>Y tu Contraseña</p>
+                <input type="password" autocomplete="current-password">
             </div>
-            </form>
-        </main>
-    </body>
+            <div class="Box-for-name">
+                <p>¿Cual es tu nombre?</p>
+                <label>
+                    <input type="text" autocomplete="name" placeholder="Angel12320">
+                </label>
+            </div>
+            <div class="">
+<p>Pon tu nombre de usuario</p>
+<label>
+    <input type="text" autocomplete="username" placeholder="Angelfizz2090">
+</label>
+            </div> 
+            <div class="">
+        <label>
+            <input type="radio">
+            <input type="radio">
+        </label>
+            </div>
+        </form>
+    </main>
+</body>
+
 </html>
