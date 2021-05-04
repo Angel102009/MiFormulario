@@ -1,0 +1,30 @@
+ *{
+     box-sizing: border-box;
+     padding: 0;
+     margin: 0;
+ }
+
+ h1{
+     font-size: 26px;
+     text-align: center;
+ }
+
+ p{
+     font-size: 14px;
+ }
+
+ .Box-for-information{
+     border: 4px black solid;
+     border-radius: 5px;
+     display: inline-block;
+     padding: 20px;
+     background-color: saddlebrown;
+ }
+
+ .Container-for-pregunts{
+     border: 7px black solid;
+     border-radius: 3px;
+     padding: 0;
+     margin: 0;
+     background-color: grey
+ }
