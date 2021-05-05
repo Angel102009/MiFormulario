@@ -16,7 +16,7 @@
             <p>Tendras que responder algunas preguntas</p>
         </div>
 
-        <form class="Container-for-pregunts">
+        <form class="Container-for-pregunts" id="Formulario-Vocabulary">
             <div class="Box-for-pregunt">
                 <label>
                 <p>¿Cual es tu correo?</p>
@@ -48,10 +48,17 @@
         </label>
             </div>
         </form>
+        <button id="Formulario-Vocabulary">Guardar y Enviar</button>
     </main>
 </body>
 
 <script>
+const button = document.querySelector('button'); 
+
+button.onclick = function() {
+    var respuesta = prompt("Se han guardado tus datos muy bien")
+}
+
 
 </script>
 
