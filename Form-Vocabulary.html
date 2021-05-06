@@ -1,16 +1,63 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="">
-        <title>Form Vocabulary</title>
-    </head>
-    <body>
-        <main>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style-for-form-Vocabulary.css">
+    <title>Form Vocabulary</title>
+</head>
+
+<body>
+    <main>
+        <div class="Box-for-information">
             <h1>Unete a Nosotros</h1>
             <p>Si quieres una cuenta de Vocabulary</p>
             <p>Tendras que responder algunas preguntas</p>
-        </main>
-    </body>
+        </div>
+
+        <form class="Container-for-pregunts" id="Formulario-Vocabulary">
+            <div class="Box-for-pregunt">
+                <label>
+                    <p>¿Cual es tu correo?</p>
+                    <input type="email" autocomplete="email" placeholder="Ejemplo1223@gmail.com">
+                    <p>Y tu Contraseña</p>
+                    <input type="password" autocomplete="current-password">
+                </label>
+            </div>
+            <div class="Box-for-name">
+                <p>¿Cual es tu nombre?</p>
+                <label>
+                    <input type="text" autocomplete="name" placeholder="Angel12320">
+                </label>
+            </div>
+            <div class="Box-for-username">
+                <p>Pon tu nombre de usuario</p>
+                <label>
+                    <input type="text" autocomplete="username" placeholder="Angelfizz2090">
+                    <p>Pon La contraseña de tu usuario</p>
+                    <input type="password" autocomplete="current-password">
+                </label>
+            </div>
+            <div class="Box-for-edad">
+                <label>
+                    <p>12 +</p>
+                    <input type="radio">
+                    <p>18 +</p>
+                    <input type="radio">
+                </label>
+            </div>
+        </form>
+        <button id="Formulario-Vocabulary"><a href="file:///C:/Users/Alejandro/Documents/Miformulario/Vocabulary2.html">Guardar y enviar</a></button>
+    </main>
+</body>
+
+<script>
+    const button = document.querySelector('button');
+
+    button.onclick = function () {
+        var respuesta = prompt("Se han guardado tus datos muy bien");
+    }
+</script>
+
 </html>
