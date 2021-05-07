@@ -3,3 +3,21 @@
     padding: 0;
     margin: 0;
 }
+
+h1{
+    font-size: 24px;
+}
+
+p{
+    font-size: 14px;
+}
+
+.Box-for-principal{
+    border: 2px darkblue solid;
+    border-radius: 2px;
+    padding: 10px;
+    display: block;
+    position: fixed;
+    text-align: center;
+    background-color: papayawhip; 
+}
