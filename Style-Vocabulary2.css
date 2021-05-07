@@ -21,3 +21,14 @@ p{
     text-align: center;
     background-color: papayawhip; 
 }
+
+.Box-for-menu{
+    border: 4px black solid;
+    border-radius: 2px;
+    padding: 3px;
+    display: inline-block;
+    position: fixed;
+    height: 20px;
+    width: 500px;
+    background-color: darkred;
+}
