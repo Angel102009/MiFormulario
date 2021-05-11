@@ -32,3 +32,14 @@ p{
     width: 500px;
     background-color: darkred;
 }
+
+.Box-for-idiomas{
+    border: 4px black solid;
+    border-radius: 3px;
+    display: inline-block;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    height: 50px;
+    background-color: slategrey;
+}
